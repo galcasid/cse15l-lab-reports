@@ -8,9 +8,9 @@
 * Open a new terminal on VScode (if mac user: at top of the screen - same row as apple logo)
 * type in ssh cs15lsp23bu@ieng6.ucsd.edu and press return (replace cs15lsp23bu with your own username) (windows users will need to install git for windows before this step)
 * When you see (yes/no/[fingerprint])?, type yes and return
-![Image]()
+![Image](remotelyconnecting.jpg)
 
 # Trying Some Commands
 * You can try typing in: cd, ls, pwd
 * log out of the remote server by ctrl d
-* ![Image]()
+* ![Image](testingcommands.jpg)

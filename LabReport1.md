@@ -13,4 +13,4 @@
 # Trying Some Commands
 * You can try typing in: cd, ls, pwd
 * log out of the remote server by ctrl d
-![Image](testingcommands.png)
+* ![Image](testingcommands.png)

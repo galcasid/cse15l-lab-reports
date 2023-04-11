@@ -2,7 +2,7 @@
 * I already had VScode installed
 * Visit https://code.visualstudio.com/ and download the correct version depending on the operating system you're using
 * Completed successfully if you see this:
-![Image](19.46.35.png)
+![Image](19.46.35.jpg)
 
 # Remotely Connecting
 * Open a new terminal on VScode (if mac user: it's located at the top of the screen - same row as apple logo)

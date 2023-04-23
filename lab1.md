@@ -23,6 +23,32 @@ yes
 
 # Trying Some Commands
 * So you've successfully opened a terminal and remotely connected, so now it's time to explore and learn some commands!
-* You can try typing in: cd, ls, pwd
-* log out of the remote server by ctrl d
-![Image](testingcommands.png)
+* You can start by typing these in:
+```
+pwd
+```
+```
+ls
+```
+* which will give you these outputs:
+[Image](1stcommands.png)
+* pwd stands for print working directory. As the name suggests, this command prints out the current directory that you're in. 
+* Now what about ls? ls is short for list, and typing this command will output a pile of files and folders like in the picture above. 
+* Now type in:
+```
+ls -l
+```
+* This is like the ls command but gives more information. 
+* More commands you can try are:
+```
+mkdir hiLab1
+```
+```
+mkdir byeLab1
+```
+```
+rmdir byeLab1
+```
+* mkdir stands for make directory, and rmdir stands for remove directory. If you typed all of these in and did the ls -l command, you will see the directory you made and did not remove:
+[Image](2ndcommands.png)
+[Image](3rdcommands.png)

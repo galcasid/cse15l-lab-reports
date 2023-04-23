@@ -1,6 +1,6 @@
 # Installing VScode
-* I already had VScode installed
-* Visit [https://code.visualstudio.com/](https://code.visualstudio.com/) and download the correct version depending on the operating system you're using
+* The first step to using Java on your computer and remotely connecting for this class is to download VScode. For me, I already have this downloaded, but for those who haven't you will want to visit [https://code.visualstudio.com/](https://code.visualstudio.com/) and download the correct version depending on the operating system you're using.
+![Image]()
 * Completed successfully if you see this:
 ![Image](vscodescreenshot.png)
 

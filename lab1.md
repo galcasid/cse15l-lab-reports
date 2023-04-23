@@ -5,6 +5,8 @@
 ![Image](vscodescreenshot.png)
 
 # Remotely Connecting
+* Trying to remotely connect for the first time was, in my experience, a very lengthy and tiring process that required a lot of patience. Know that following through step by step can still lead to some errors, and that it's ok because it happens to all of us! Just remember to have patience and ask for help if you need it. 
+* With VScode open, you will want to open a new terminal. For mac users, this can be found at the top of the screen.
 * Open a new terminal on VScode (if mac user: it's located at the top of the screen - same row as apple logo)
 * type in
 ```

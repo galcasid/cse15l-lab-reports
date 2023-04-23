@@ -22,6 +22,7 @@ yes
 ![Image](remotelyconnecting.png)
 
 # Trying Some Commands
+* So you've successfully opened a terminal and remotely connected, so now it's time to explore and learn some commands!
 * You can try typing in: cd, ls, pwd
 * log out of the remote server by ctrl d
 ![Image](testingcommands.png)

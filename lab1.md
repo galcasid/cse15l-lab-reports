@@ -52,3 +52,6 @@ rmdir byeLab1
 * mkdir stands for make directory, and rmdir stands for remove directory. If you typed all of these in and did the ls -l command, you will see the directory you made and did not remove:
 ![Image](2ndcommands.png)
 ![Image](3rdcommands.png)
+* In the screenshot above, after typing in ls -l, I then type in pwd again and this new command called cd along with the name of the directory that I made. cd stands for change directory. As you can see from the picture, the path that showed when I did pwd the first time is different from when I did it the second time after changing directories.
+* Lastly, to close out of the remote server, use ctrl d:
+![Image](4thcommands.png)

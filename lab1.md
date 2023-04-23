@@ -1,6 +1,6 @@
 # Installing VScode
 * I already had VScode installed
-* Visit https://code.visualstudio.com/ and download the correct version depending on the operating system you're using
+* Visit [Link](https://code.visualstudio.com/) and download the correct version depending on the operating system you're using
 * Completed successfully if you see this:
 ![Image](vscodescreenshot.png)
 

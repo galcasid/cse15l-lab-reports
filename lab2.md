@@ -15,37 +15,54 @@
 * Here is code for a method that attempts to reverse the order of items in an array:
 ```
 public class ArrayExamples {
-  // Changes the input array to be in reversed order
-  static void reverseInPlace(int[] arr) {
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
+      arr[i] = newArray[arr.length - i - 1];
     }
+    return arr;
   }
 }
 ```
 * This is the JUnit test using a failure-inducing input:
 ```
 public class ArrayTests {
-  @Test 
-	public void testReverseInPlace1() {
-    int[] input2 = { 3, 4 };
-    ArrayExamples.reverseInPlace(input2);
-    assertArrayEquals(new int[]{ 4, 3 }, input2);
-	}
+  @Test
+  public void testReversed1() {
+    int[] input2 = { 2, 5 };
+    assertArrayEquals(new int[]{ 5, 2 }, ArrayExamples.reversed(input2));
+  }
 }
 ```
 * This is the JUnit test using an input that doesn't induce a failure:
 ```
 public class ArrayTests {
-	@Test 
-	public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
-	}
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
 }
 ```
 * When you run these two tests, the following symptom is shows:
 ![Image](JUnitFails.png)
 * Note: this image is the result of running 4 tests, causing 1 of the 2 failures, but for the sake of focusing on one bug, this post is omitting these additional tests.
 * So why is one of the tests showing an error and that other one isn't?
+* The method creates a new empty array with the same length as the input array, but instead of adding the elements from the input array into the new array in reversed order, the method is putting elements from the empty array into the input array, and then returning the input array. To fix this, the method should return the new array created, and the roles should be reversed: elements from the input array should go into the new array instead. The code below is the same code as earlier but with fixes that was causing the JUnit failure:
+```
+public class ArrayExamples {
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+}
+```
+# Part 3
+* 

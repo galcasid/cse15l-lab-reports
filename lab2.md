@@ -65,4 +65,5 @@ public class ArrayExamples {
 }
 ```
 # Part 3
-* 
+* This is a minor thing, and probably something I probably should've already known, but one thing I learned from lab in week 2 or 3 is that I have to go through only half of an array length during a for loop when I'm trying to return a new array that's the input array in reversed order (which is done in method reverseInPlace). 
+* Another thing I learned from lab in week 2 or 3 is how to build and run a server. I know that behind every website is code that wrote it out, but I didn't know about local hosts, and being able to directly update a site I'm running through the terminal. I'm still not familiar with everything to do with urls, uris, etc. but I knew nothing about it before.

@@ -10,3 +10,6 @@
 * In the image above, I am calling /add-message for the second time.
 * The handleRequest method is called. When this is called, str equals "hello" + "\n", and the argument being passed is /add-message?s=thanks
 * Because /add-message is contained in the url, "thanks" and a line break are added into str, and the message "thanks" is printed on the site below the first message.
+
+# Part 2
+* Here is code with two methods that attempt to reverse the order of items in an array:

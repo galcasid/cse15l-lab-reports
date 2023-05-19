@@ -5,7 +5,7 @@
 ### Step 5: Clone your fork of the repository from your Github account
 ![Image](cloningDirectory.png)
 * keys pressed: ```git<space>clone<space><command>v<enter>```
-* ```<command>v``` is pasting git@github.com:galcasid/lab7.git which was copied from GitHub.
+* ```<command>v``` is pasting ```git@github.com:galcasid/lab7.git``` which was copied from GitHub.
 ### Step 6: Run the tests, demonstrating that they fail
 ![Image](testFailure.png)
 * keys pressed: ```cd<space>lab7<enter>bash<space>test.sh<enter>```

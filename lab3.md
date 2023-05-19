@@ -37,7 +37,7 @@ giannaalcasid@Giannas-MacBook-Air stringsearch-data-main % find ./technical -nam
 # -user
 * This command-line option is `-user`, and it searches for files owned by the specified username in the directory stated.
 * In these two examples, I search for files owned by user giannaalcasid in emptyFile and Alcohol_Problems, found in 911report and government respectively.
-* In emptyFile, there is nothing that I, the user, own (as it is empty), so the terminal does not output anything.
+* In emptyFile, there is nothing inside, but I own this file so it outputs the directory of emptyFile.
 * However, in the Alcohol_Problems file, there are 4 files owned by me, and the terminal outputs the name of each file owned by the user found in that directory.
 * These are useful because when working with other files, some parts of it may be owned by another user. There may be similar files, but a user might want to only search for the one that they own, or make sure all of the files they own are in their own file and not in anybody else's.
 * Sources: [https://www.geeksforgeeks.org/find-command-in-linux-with-examples/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) & manual for `find` by typing in `man find` into terminal

@@ -5,7 +5,8 @@
 * I added an empty file within the file 911report, so when I use the `find` and `-empty` command on `./911report` (`.` being `/Users/giannaalcasid/Downloads/stringsearch-data-main/technical`), the terminal prints out the path of the empty file.
 * When I use the same commands on `./biomed`, which doesn't have any empty files, the terminal doesn't print out anything.
 * These are useful when searching for empty files and directories, and a user can make sure they have no empty files. If they do, detecting the existence and location of the empty file allows the user to delete it.
-* Sources: [https://www.geeksforgeeks.org/find-command-in-linux-with-examples/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) & manual for `find` by typing in `man find` into terminal  
+* Sources: [https://www.geeksforgeeks.org/find-command-in-linux-with-examples/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) & manual for `find` by typing in `man find` into terminal
+![Image](lab3_1)  
 ```
 giannaalcasid@Giannas-MacBook-Air technical % find ./biomed -empty
 ```
@@ -22,6 +23,7 @@ giannaalcasid@Giannas-MacBook-Air technical % find ./911report -empty
 * When running these commands, it displays the file path the file is located in and the name of the file.
 * These are useful because it can be difficult to scan through many files to look for a file with a specific name, as it's easy to pass by the one you're looking for, or mistake a similarly named file as the one you're looking for.
 * Sources: [https://www.geeksforgeeks.org/find-command-in-linux-with-examples/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) & manual for `find` by typing in `man find` into terminal
+![Image](lab3_2)
 ```
 giannaalcasid@Giannas-MacBook-Air stringsearch-data-main % pwd
 /Users/giannaalcasid/Downloads/stringsearch-data-main
@@ -41,6 +43,7 @@ giannaalcasid@Giannas-MacBook-Air stringsearch-data-main % find ./technical -nam
 * However, in the Alcohol_Problems file, there are 4 files owned by me, and the terminal outputs the name of each file owned by the user found in that directory.
 * These are useful because when working with other files, some parts of it may be owned by another user. There may be similar files, but a user might want to only search for the one that they own, or make sure all of the files they own are in their own file and not in anybody else's.
 * Sources: [https://www.geeksforgeeks.org/find-command-in-linux-with-examples/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) & manual for `find` by typing in `man find` into terminal
+![Image](lab3_3)
 ```
 giannaalcasid@Giannas-MacBook-Air stringsearch-data-main % find ./technical/911report/emptyFile -user giannaalcasid
 ./technical/911report/emptyFile
@@ -61,7 +64,8 @@ giannaalcasid@Giannas-MacBook-Air stringsearch-data-main % find ./technical/gove
 * There are many types to test, but for these examples, I will use directory (d) and regular file (f).
 * In the first example, I am searching within `./technical` and I want the terminal to print all the directories. It traverses through the directory and prints by order, and this is useful when wanting to see all possible directories without including possible files in them.
 * In the second example, I am searching within the 911report folder and looking for all the files in it. This is useful because a folder might contain other folders, but you only want to know the files contained within.
-* Sources: [https://www.geeksforgeeks.org/find-command-in-linux-with-examples/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) & manual for `find` by typing in `man find` into terminal 
+* Sources: [https://www.geeksforgeeks.org/find-command-in-linux-with-examples/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) & manual for `find` by typing in `man find` into terminal
+![Image](lab3_4) 
 ```
 giannaalcasid@Giannas-MacBook-Air stringsearch-data-main % find ./technical -type d
 ./technical

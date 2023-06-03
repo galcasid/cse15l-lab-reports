@@ -2,6 +2,8 @@
 ### Step 4: Log into ieng6
 ![Image](step4.png)
 * keys pressed: ```ssh<space>cs15lsp23bu<shift>2ieng6.ucsd.edu<enter>```.
+* Normally, a user would be asked to type in their password after pressing enter, but that wasn't the case for me. I was able to proceed onto the next step without a password because I generated an SSH key for ieng6.
+* I did this by running ```ssh-keygen``` on my local terminal, pressing enter until I saw a randomart image, logging into my ieng6 account, running ```mkdir .ssh``` in the terminal, then logging out, and then authorizing the path to my public SSH key to my ieng6 account.
 ### Step 5: Clone your fork of the repository from your Github account
 ![Image](cloningDirectory.png)
 * keys pressed: ```git<space>clone<space><command>v<enter>```
@@ -18,6 +20,11 @@
 ![Image](vimColonWQ.png)
 * keys pressed: ```xi2<esc>:wq```
 * ```<enter>``` not yet pressed in this screenshot to show edits made in vim
+* ```x``` deletes the character
+* ```i``` makes vim enter insert mode
+* ```2``` inserts the character 2 into the file
+* ```<esc>``` exits vim out of insert mode
+* ```:wq<enter>``` saves changes made to file and exits out vim
 ![Image](vimExits.png)
 * key pressed: ```<enter>```
 * exits out of vim
